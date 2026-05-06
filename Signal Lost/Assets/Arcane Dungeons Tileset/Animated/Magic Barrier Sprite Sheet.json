@@ -1,0 +1,140 @@
+{ "frames": {
+   "Magic Barrier Sprite Sheet (Appear) 0.aseprite": {
+    "frame": { "x": 0, "y": 0, "w": 64, "h": 32 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 32 },
+    "sourceSize": { "w": 64, "h": 32 },
+    "duration": 100
+   },
+   "Magic Barrier Sprite Sheet (Appear) 1.aseprite": {
+    "frame": { "x": 64, "y": 0, "w": 64, "h": 32 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 32 },
+    "sourceSize": { "w": 64, "h": 32 },
+    "duration": 100
+   },
+   "Magic Barrier Sprite Sheet (Appear) 2.aseprite": {
+    "frame": { "x": 128, "y": 0, "w": 64, "h": 32 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 32 },
+    "sourceSize": { "w": 64, "h": 32 },
+    "duration": 100
+   },
+   "Magic Barrier Sprite Sheet (Appear) 3.aseprite": {
+    "frame": { "x": 192, "y": 0, "w": 64, "h": 32 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 32 },
+    "sourceSize": { "w": 64, "h": 32 },
+    "duration": 100
+   },
+   "Magic Barrier Sprite Sheet (Appear) 4.aseprite": {
+    "frame": { "x": 256, "y": 0, "w": 64, "h": 32 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 32 },
+    "sourceSize": { "w": 64, "h": 32 },
+    "duration": 100
+   },
+   "Magic Barrier Sprite Sheet (Barrier Idle) 0.aseprite": {
+    "frame": { "x": 0, "y": 32, "w": 64, "h": 32 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 32 },
+    "sourceSize": { "w": 64, "h": 32 },
+    "duration": 100
+   },
+   "Magic Barrier Sprite Sheet (Barrier Idle) 1.aseprite": {
+    "frame": { "x": 64, "y": 32, "w": 64, "h": 32 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 32 },
+    "sourceSize": { "w": 64, "h": 32 },
+    "duration": 100
+   },
+   "Magic Barrier Sprite Sheet (Barrier Idle) 2.aseprite": {
+    "frame": { "x": 128, "y": 32, "w": 64, "h": 32 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 32 },
+    "sourceSize": { "w": 64, "h": 32 },
+    "duration": 100
+   },
+   "Magic Barrier Sprite Sheet (Barrier Idle) 3.aseprite": {
+    "frame": { "x": 192, "y": 32, "w": 64, "h": 32 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 32 },
+    "sourceSize": { "w": 64, "h": 32 },
+    "duration": 100
+   },
+   "Magic Barrier Sprite Sheet (Barrier Idle) 4.aseprite": {
+    "frame": { "x": 256, "y": 32, "w": 64, "h": 32 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 32 },
+    "sourceSize": { "w": 64, "h": 32 },
+    "duration": 100
+   },
+   "Magic Barrier Sprite Sheet (Barrier Disappear) 0.aseprite": {
+    "frame": { "x": 0, "y": 64, "w": 64, "h": 32 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 32 },
+    "sourceSize": { "w": 64, "h": 32 },
+    "duration": 100
+   },
+   "Magic Barrier Sprite Sheet (Barrier Disappear) 1.aseprite": {
+    "frame": { "x": 64, "y": 64, "w": 64, "h": 32 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 32 },
+    "sourceSize": { "w": 64, "h": 32 },
+    "duration": 100
+   },
+   "Magic Barrier Sprite Sheet (Barrier Disappear) 2.aseprite": {
+    "frame": { "x": 128, "y": 64, "w": 64, "h": 32 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 32 },
+    "sourceSize": { "w": 64, "h": 32 },
+    "duration": 100
+   },
+   "Magic Barrier Sprite Sheet (Barrier Disappear) 3.aseprite": {
+    "frame": { "x": 192, "y": 64, "w": 64, "h": 32 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 32 },
+    "sourceSize": { "w": 64, "h": 32 },
+    "duration": 100
+   },
+   "Magic Barrier Sprite Sheet (Barrier Disappear) 4.aseprite": {
+    "frame": { "x": 256, "y": 64, "w": 64, "h": 32 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 32 },
+    "sourceSize": { "w": 64, "h": 32 },
+    "duration": 100
+   }
+ },
+ "meta": {
+  "app": "https://www.aseprite.org/",
+  "version": "1.3.7-x64",
+  "image": "Magic Barrier Sprite Sheet.png",
+  "format": "RGBA8888",
+  "size": { "w": 320, "h": 96 },
+  "scale": "1",
+  "frameTags": [
+  ],
+  "layers": [
+   { "name": "Appear", "opacity": 255, "blendMode": "normal" },
+   { "name": "Barrier Idle", "opacity": 255, "blendMode": "normal" },
+   { "name": "Barrier Disappear", "opacity": 255, "blendMode": "normal" }
+  ],
+  "slices": [
+  ]
+ }
+}
