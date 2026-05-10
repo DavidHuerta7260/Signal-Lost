@@ -1,22 +1,56 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+using TMPro;
+using System.Collections;
 
 public class PuzzleComplete : MonoBehaviour
 {
-    public string mainSceneName = "MainLevel";
-    public GameObject completePanel;
+    [Header("UI")]
+    public GameObject completionPanel;
+    public TextMeshProUGUI congratsText;
+    public Button continueButton;
+
+    [Header("Settings")]
+    public string mainLevelScene = "MainLevel";
+    public string terminalID = "Terminal_01";
+    public string congratsMessage = "SYSTEM RESTORED";
+    public float panelDelay = 1f;
+
+    private bool isPuzzleComplete = false;
+
+    void Start()
+    {
+        if (completionPanel != null)
+            completionPanel.SetActive(false);
+
+        if (congratsText != null)
+            congratsText.text = congratsMessage;
+
+        if (continueButton != null)
+            continueButton.onClick.AddListener(ReturnToMainLevel);
+    }
 
     public void CompletePuzzle()
     {
-        Debug.Log("Puzzle Complete!");
+        if (isPuzzleComplete) return;
+        isPuzzleComplete = true;
 
-        GameManager.puzzleSolved = true;
+        if (GameManager.Instance != null)
+            GameManager.Instance.CompleteTerminal(terminalID);
 
-        completePanel.SetActive(true);
+        Invoke("ShowPanel", panelDelay);
     }
 
-    public void ReturnToMain()
+    void ShowPanel()
     {
-        SceneManager.LoadScene(mainSceneName);
+        if (completionPanel != null)
+            completionPanel.SetActive(true);
+    }
+
+    void ReturnToMainLevel()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(mainLevelScene);
     }
 }

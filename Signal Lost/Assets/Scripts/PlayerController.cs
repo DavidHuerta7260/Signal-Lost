@@ -8,35 +8,49 @@ public class PlayerController : MonoBehaviour
     private Vector2 movement;
     private Animator animator;
 
+    // Store last direction for idle facing
+    private float lastMoveX = 0f;
+    private float lastMoveY = -1f; // default face down
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+
+        // Set default idle direction
+        animator.SetFloat("MoveX", lastMoveX);
+        animator.SetFloat("MoveY", lastMoveY);
+        animator.SetFloat("Speed", 0);
     }
 
     void Update()
     {
-        // Get player input
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
 
-        // Normalize movement so diagonal isn't faster
         movement = movement.normalized;
 
-        // Only update direction when moving
         if (movement != Vector2.zero)
         {
+            // Update direction while moving
+            lastMoveX = movement.x;
+            lastMoveY = movement.y;
+
             animator.SetFloat("MoveX", movement.x);
             animator.SetFloat("MoveY", movement.y);
         }
+        else
+        {
+            // Keep last direction for idle facing
+            animator.SetFloat("MoveX", lastMoveX);
+            animator.SetFloat("MoveY", lastMoveY);
+        }
 
-        // Always update speed (used for idle vs walk)
         animator.SetFloat("Speed", movement.magnitude);
     }
 
     void FixedUpdate()
     {
-        // Move player
         rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
     }
 }

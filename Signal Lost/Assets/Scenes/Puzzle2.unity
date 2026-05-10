@@ -4668,8 +4668,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74b706e3895ba3d49927762bf4e8496d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainSceneName: MainLevel
-  completePanel: {fileID: 1444041736}
+  completionPanel: {fileID: 1444041736}
+  congratsText: {fileID: 2052842798}
+  continueButton: {fileID: 649393055}
+  mainLevelScene: MainLevel
+  terminalID: Terminal_02
+  congratsMessage: SYSTEM RESTORED
+  panelDelay: 1
 --- !u!1 &1444041736
 GameObject:
   m_ObjectHideFlags: 0
