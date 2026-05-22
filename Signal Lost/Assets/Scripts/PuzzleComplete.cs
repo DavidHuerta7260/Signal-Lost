@@ -2,7 +2,6 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using TMPro;
-using System.Collections;
 
 public class PuzzleComplete : MonoBehaviour
 {
@@ -44,8 +43,16 @@ public class PuzzleComplete : MonoBehaviour
 
     void ShowPanel()
     {
+        Debug.Log("ShowPanel called");
         if (completionPanel != null)
+        {
             completionPanel.SetActive(true);
+            Debug.Log("Panel set active");
+        }
+        else
+        {
+            Debug.Log("completionPanel is NULL");
+        }
     }
 
     void ReturnToMainLevel()

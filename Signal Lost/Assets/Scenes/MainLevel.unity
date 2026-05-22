@@ -1006,8 +1006,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -434, y: -139}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: -470.57, y: -73.162}
+  m_SizeDelta: {x: 126.855, y: 53.325}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &322283947
 MonoBehaviour:
@@ -1056,8 +1056,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 35
+  m_fontSizeBase: 35
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -53645,7 +53645,7 @@ MonoBehaviour:
     compromised. Restore flow connections before structural damage becomes irreversible.
     PRESSURE LEVEL: CRITICAL'
   puzzleSceneName: Puzzle3
-  displayDuration: 5
+  displayDuration: 10
   terminalUI: {fileID: 2001368114}
   sceneLoader: {fileID: 807340531}
   interactPrompt: {fileID: 296482819}
@@ -74657,7 +74657,7 @@ MonoBehaviour:
     material breach imminent. Restore pipe integrity immediately. TIME REMAINING:
     CRITICAL'
   puzzleSceneName: Puzzle4
-  displayDuration: 5
+  displayDuration: 10
   terminalUI: {fileID: 2001368114}
   sceneLoader: {fileID: 1284575177}
   interactPrompt: {fileID: 296482819}
@@ -75185,7 +75185,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2.154, y: 84.5}
+  m_AnchoredPosition: {x: 2.1535, y: 38}
   m_SizeDelta: {x: 1072.307, y: 169}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1698442872
@@ -75235,8 +75235,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 28
-  m_fontSizeBase: 28
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -82593,7 +82593,7 @@ MonoBehaviour:
     Restore pipe connections to prevent core system overheating. WARNING: Temperature
     rising.'
   puzzleSceneName: Puzzle2
-  displayDuration: 5
+  displayDuration: 10
   terminalUI: {fileID: 2001368114}
   sceneLoader: {fileID: 1817779883}
   interactPrompt: {fileID: 296482819}
@@ -82753,7 +82753,7 @@ MonoBehaviour:
     facility systems shutting down. This is the last chance to restore full laboratory
     operation. FACILITY SHUTDOWN IN PROGRESS
   puzzleSceneName: Puzzle5
-  displayDuration: 5
+  displayDuration: 10
   terminalUI: {fileID: 2001368114}
   sceneLoader: {fileID: 1819656610}
   interactPrompt: {fileID: 296482819}
@@ -83132,7 +83132,7 @@ MonoBehaviour:
   errorMessage: SYSTEM ERROR 0x0041 Power relay failure detected. Primary circuit
     offline. Reroute power conduits to restore main system connection.
   puzzleSceneName: Puzzle1
-  displayDuration: 5
+  displayDuration: 10
   terminalUI: {fileID: 2001368114}
   sceneLoader: {fileID: 1881181072}
   interactPrompt: {fileID: 296482819}
@@ -83250,7 +83250,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1982305018
 RectTransform:
   m_ObjectHideFlags: 0
@@ -83269,8 +83269,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -4.5670166, y: 0}
-  m_SizeDelta: {x: -137.012, y: -314.143}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: -779.02, y: -314.143}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1982305019
 MonoBehaviour:
@@ -83433,7 +83433,6 @@ MonoBehaviour:
   errorText: {fileID: 15448466}
   cursorText: {fileID: 0}
   typeSpeed: 0.04
-  errorColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &2012689907
 GameObject:
   m_ObjectHideFlags: 0
